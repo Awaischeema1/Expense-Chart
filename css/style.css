@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Soft-red: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+    --Dark-brown: hsl(25, 47%, 15%);
+   --Medium-brown: hsl(28, 10%, 53%);
+   --Cream: hsl(27, 66%, 92%);
+   --Very-pale-orange: hsl(33, 100%, 98%);
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    Font-size: 18px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Cream);
+}
+.container{
+
+}
+.container header{
+    width: 375px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--Soft-red);
+}
+header .total p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.data{
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.chart{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.chart .col{
+    width: 30px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--Soft-red);
+}
+.days{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+.days span{
+    width: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(158, 155, 155);
+}
+
+.bottom-detail{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-detail p{
+    color: rgb(158, 155, 155);
+    font-size: 12px;
+    font-weight: 400;
+}
+.bottom-detail .flm h6{
+    text-align: right;
+}
